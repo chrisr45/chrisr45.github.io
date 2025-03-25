@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Mopane.com.au</title>
+        <style>
+            /* Reset some default styles */
+            body,
+            h1,
+            p {
+                margin: 0;
+                padding: 0;
+                font-family: Arial, sans-serif;
+            }
+
+            body {
+                background-color: #e0f2f1;
+                /* Soft teal background */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                flex-direction: column;
+                text-align: center;
+                color: #333;
+            }
+
+            /* Style for the header */
+            h1 {
+                font-size: 3em;
+                color: #004d40;
+                /* Deep teal color */
+                margin-bottom: 20px;
+            }
+
+            /* Style for the placeholder text */
+            p {
+                font-size: 1.2em;
+                margin-bottom: 40px;
+                color: #00796b;
+                /* A soft green for text */
+            }
+
+            /* Style the tree image placeholder */
+            .tree-container {
+                width: 300px;
+                height: 300px;
+                background-color: #2e7d32;
+                /* A dark green background for the tree */
+                border-radius: 50%;
+                position: relative;
+                margin-bottom: 20px;
+            }
+
+            .tree-container::before {
+                content: '';
+                position: absolute;
+                top: 30%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 80px;
+                height: 120px;
+                background-color: #4caf50;
+                /* A fresh green color for the tree trunk */
+                border-radius: 10px;
+            }
+
+            .tree-container::after {
+                content: '';
+                position: absolute;
+                top: 10%;
+                left: 50%;
+                transform: translateX(-50%);
+                width: 150px;
+                height: 150px;
+                background-color: #388e3c;
+                /* A lighter green for the canopy */
+                border-radius: 50%;
+            }
+
+            /* Footer text */
+            footer {
+                font-size: 0.9em;
+                color: #00796b;
+            }
+        </style>
+    </head>
+
+    <body>
+
+        <h1>Welcome to Mopane.com.au</h1>
+        <p>Your placeholder for something amazing!</p>
+
+        <div class="tree-container">
+            <!-- Placeholder for stylized Mopane tree -->
+        </div>
+
+        <footer>
+            &copy; 2025 Mopane.com.au. All rights reserved.
+        </footer>
+
+    </body>
+
+</html>
