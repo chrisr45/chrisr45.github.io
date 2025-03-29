@@ -48,43 +48,13 @@
             .tree-container {
                 width: 300px;
                 height: 300px;
-                background-color: #2e7d32;
-                /* A dark green background for the tree */
                 border-radius: 50%;
                 position: relative;
                 margin-bottom: 20px;
-            }
-
-            .tree-container::before {
-                content: '';
-                position: absolute;
-                top: 30%;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 80px;
-                height: 120px;
-                background-color: #4caf50;
-                /* A fresh green color for the tree trunk */
-                border-radius: 10px;
-            }
-
-            .tree-container::after {
-                content: '';
-                position: absolute;
-                top: 10%;
-                left: 50%;
-                transform: translateX(-50%);
-                width: 150px;
-                height: 150px;
-                background-color: #388e3c;
-                /* A lighter green for the canopy */
-                border-radius: 50%;
-            }
-
-            /* Footer text */
-            footer {
-                font-size: 0.9em;
-                color: #00796b;
+                background-image: url('mopane-leaf.jpeg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
             }
         </style>
     </head>
@@ -92,7 +62,6 @@
     <body>
 
         <h1>Welcome to Mopane.com.au</h1>
-        <p>Your placeholder for something amazing!</p>
 
         <div class="tree-container">
             <!-- Placeholder for stylized Mopane tree -->
